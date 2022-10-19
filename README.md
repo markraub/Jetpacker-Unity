@@ -3,7 +3,7 @@ Gus the cat is on the hunt for treats in space, help him get all the treats with
 
 
 # Controls
-W - Propel Forward
-Q - Rotate Counter Clockwise
-E - Rotate Clockwise
-S - Brakes/Refuel
+W - Propel Forward <br>
+Q - Rotate Counter Clockwise <br>
+E - Rotate Clockwise <br>
+S - Brakes/Refuel <br>
