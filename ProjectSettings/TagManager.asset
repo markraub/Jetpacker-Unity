@@ -13,6 +13,7 @@ TagManager:
   - ProximityMine
   - Hostile
   - Projectile
+  - Goal
   layers:
   - Default
   - TransparentFX

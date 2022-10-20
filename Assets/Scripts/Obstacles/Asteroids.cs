@@ -13,6 +13,7 @@ public class Asteroids : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         sr.sprite = asteroids[Random.Range(0, 4)];
+        
     }
 
     // Update is called once per frame

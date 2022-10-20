@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 6421409188588922556}
   - component: {fileID: 6421409188588922557}
   - component: {fileID: 6421409188588922546}
+  - component: {fileID: 3526581449488309759}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5160,6 +5161,21 @@ MonoBehaviour:
   FuelPickupAmount: 25
   GravityPickupAmount: 0.01
   SpeedPickupAmount: 1
+  damageNoise: {fileID: 0}
+  damageCooldown: 1
+--- !u!114 &3526581449488309759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6421409188588922436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5d099ef800ab3449edef0d64a02011, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  compassSprite: {fileID: 21300000, guid: 2c05ee7b847edb34a946c5bc8ea32a48, type: 3}
 --- !u!1 &6421409189125861161
 GameObject:
   m_ObjectHideFlags: 0

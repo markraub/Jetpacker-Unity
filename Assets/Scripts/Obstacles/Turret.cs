@@ -23,16 +23,28 @@ public class Turret : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 distance = player.transform.position - transform.position;
-        if (distance.magnitude <= range)
+        Vector3 target = player.transform.position - transform.position;
+        if (target.magnitude <= range)
         {
-            StartCoroutine(Shoot(distance));
+            FireLaser(target);
+            //StartCoroutine(Shoot(target));
         }
-
 
         
     }
 
+    private IEnumerator FireLaser(Vector3 target){
+
+        if (count >= maxCount){
+            yield break;
+        }
+        count ++;
+        yield return new WaitForSeconds(shootspeed);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, target, range);
+        Debug.Log(hit.transform.parent.name);
+
+
+    }
     private IEnumerator Shoot(Vector3 target)
     {
 
@@ -47,7 +59,7 @@ public class Turret : MonoBehaviour
         GameObject bullet = new GameObject("bullet");
         bullet.transform.parent = transform;
         bullet.transform.position = transform.position;
-        bullet.transform.localScale = new Vector3(0.1f, 0.1f, 1);
+        bullet.transform.localScale = new Vector3(0.5f, 0.5f, 1);
 
         float angle = Mathf.Atan2(target.y, target.x) * Mathf.Rad2Deg;
         bullet.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -62,6 +74,7 @@ public class Turret : MonoBehaviour
         brb.AddForce(new Vector2(target.x*bulletspeed, target.y*bulletspeed));
         yield return new WaitForSeconds(0.25f);
         CircleCollider2D bcc = bullet.AddComponent<CircleCollider2D>();
+        bcc.radius = .5f;
         Destroy(bullet, 5);
         count--;
         

@@ -9,7 +9,8 @@ public class PlayerCharacter : MonoBehaviour
     static public int lives = 3;
     public float GravityPickupAmount = 0.01f;
     public float SpeedPickupAmount = 1;
-    public AudioClip[] damageNoises;
+    public AudioClip damageNoise;
+    public float damageCooldown = 1;
     
     private float speed;
     private float fuel;
@@ -18,6 +19,8 @@ public class PlayerCharacter : MonoBehaviour
     private ContactFilter2D filter;
     private Rigidbody2D rb;
     private PlayerMovement player;
+    private float iframeTimer = 0;
+    private bool fishCollected = false;
 
     // Start is called before the first frame update
 
@@ -35,11 +38,11 @@ public class PlayerCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        iframeTimer += Time.deltaTime;
         if (player.GetCurrentFuel() <= 0)
         {
             Debug.Log("Out of Fuel!");
-            DamagePlayer(1);
-            ReloadLevel();
+            DamagePlayer(100);
             
         }
 
@@ -48,6 +51,9 @@ public class PlayerCharacter : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+  
+    
+        
         switch (collision.gameObject.tag)
         {
             case "FuelPickup":
@@ -74,35 +80,64 @@ public class PlayerCharacter : MonoBehaviour
                 Destroy(collision.gameObject);
                 break;
             case "Hostile":
+                if (iframeTimer > damageCooldown){
+                    DamagePlayer(10);
+                }
+                //spawn damage noise source
                 AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-                audioSource.clip = damageNoises[Random.Range(0, damageNoises.Length)];
+                audioSource.clip = damageNoise;
+                //clamp relative velocity to collided object between 2 and 12
+                float rv = Mathf.Clamp(collision.relativeVelocity.magnitude, 2, 12);
+                //remap that relative velocity between .5 and 1.5
+                audioSource.pitch = (((0.5f - -0.5f) / (2 - 12)) * (rv - 12) + 0.5f);
                 audioSource.loop = false;
+                //Thud!
                 audioSource.Play();
-                DamagePlayer(1);
-                Destroy(audioSource);
+
+                Destroy(audioSource, audioSource.clip.length);
+                iframeTimer = 0;
                 break;
             case "Projectile":
-                DamagePlayer(1);
+            if (iframeTimer > damageCooldown){
+                    DamagePlayer(5); 
+            }
+                //spawn damage noise source
+                AudioSource audioSourceP = gameObject.AddComponent<AudioSource>();
+                audioSourceP.clip = damageNoise;
+                audioSourceP.pitch = 1.1f;
+                audioSourceP.loop = false;
+                audioSourceP.Play();
+                Destroy(audioSourceP, audioSourceP.clip.length);
                 Destroy(collision.gameObject);
+                iframeTimer = 0;
                 break;
+            case "Goal":
+            fishCollected = true;
+            Destroy(collision.gameObject);
+            break;
 
         }
             
 
     }
 
-    private void DamagePlayer(int times)
+    private void DamagePlayer(float damage)
     {
-        for (int i = 0; i < times; i++)
-        {
+        if (player.GetCurrentFuel() - damage <= 0){
             lives--;
-            if (lives <= 0)
-            {
-                lives = 3;
+            if (lives <= 0){
+                Debug.Log("GAME OVER!");
+                Application.Quit();
+            }
+            else {
                 ReloadLevel();
             }
-             
+
         }
+        else {
+            player.SetCurrentFuel(player.GetCurrentFuel() - damage);
+        }
+        
 
     }
 
@@ -110,6 +145,15 @@ public class PlayerCharacter : MonoBehaviour
     {
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
+    }
+
+    public bool getFishCollected(){
+        return fishCollected;
+    }
+
+    public bool setFishCollected(bool val){
+        fishCollected = val;
+        return fishCollected;
     }
 
 }

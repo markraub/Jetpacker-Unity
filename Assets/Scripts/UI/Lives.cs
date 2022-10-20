@@ -40,6 +40,7 @@ public class Lives : MonoBehaviour
         for (int i = 1; i < PlayerCharacter.lives; i++)
         {
             GameObject NewLife = GameObject.Instantiate(MainLife, this.transform);
+            NewLife.name = "LifeIcon_" + i;
             RectTransform img = NewLife.GetComponent<RectTransform>();
             img.localPosition += new Vector3(0, (img.rect.height * i), 0);
             NewLife.GetComponent<Image>().sprite = MainLife.GetComponent<Image>().sprite;
