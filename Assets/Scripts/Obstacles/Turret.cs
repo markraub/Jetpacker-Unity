@@ -9,6 +9,8 @@ public class Turret : MonoBehaviour
     public float range = 5;
     public Sprite bulletsprite;
     public float bulletspeed = 200;
+    public Material lineMat;
+    public Color laserColor;
 
     private PlayerMovement player;
     private int count = 0;
@@ -24,61 +26,63 @@ public class Turret : MonoBehaviour
     void Update()
     {
         Vector3 target = player.transform.position - transform.position;
-        if (target.magnitude <= range)
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, target, range);
+        if (hit.collider != null)
         {
-            FireLaser(target);
-            //StartCoroutine(Shoot(target));
+            StartCoroutine(FireLaser(hit));
+
         }
 
-        
+
+
     }
 
-    private IEnumerator FireLaser(Vector3 target){
+    private IEnumerator FireLaser(RaycastHit2D hit){
 
         if (count >= maxCount){
             yield break;
         }
         count ++;
         yield return new WaitForSeconds(shootspeed);
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, target, range);
-        Debug.Log(hit.transform.parent.name);
 
+        LineRenderer lr = gameObject.AddComponent<LineRenderer>();
+        Destroy(lr, shootspeed * .9f);
 
-    }
-    private IEnumerator Shoot(Vector3 target)
-    {
+        lr.positionCount = Random.Range(5, 20);
+        lr.alignment = LineAlignment.View;
 
-        if (count >= maxCount)
+        Vector3[] laserPoints = new Vector3[lr.positionCount];
+        laserPoints[0] = transform.position;
+        laserPoints[laserPoints.Length - 1] = hit.collider.transform.position;
+
+        lr.material = lineMat;
+        lr.startColor = laserColor;
+        lr.endColor = laserColor;
+        lr.startWidth = 0.3f;
+        lr.endWidth = 0.05f;
+        Debug.Log("Laser Hit!");
+
+        while (lr != null)
         {
-            yield break;
+            for (int i = 1; i < laserPoints.Length - 1; i++)
+            {
+                Vector3 location = Vector3.Lerp(transform.position, hit.collider.transform.position, i / laserPoints.Length - 1);
+
+                laserPoints[i] = location + new Vector3(Mathf.PerlinNoise(location.x, location.y), Mathf.PerlinNoise(location.x, location.y), 0);
+            }
+            laserPoints[laserPoints.Length - 1] = hit.collider.transform.position;
+            lr.SetPositions(laserPoints);
+
+
         }
-
-        count++;
-
-        yield return new WaitForSeconds(shootspeed);
-        GameObject bullet = new GameObject("bullet");
-        bullet.transform.parent = transform;
-        bullet.transform.position = transform.position;
-        bullet.transform.localScale = new Vector3(0.5f, 0.5f, 1);
-
-        float angle = Mathf.Atan2(target.y, target.x) * Mathf.Rad2Deg;
-        bullet.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-        SpriteRenderer bs = bullet.AddComponent<SpriteRenderer>();
-        bs.sprite = bulletsprite;
-        AudioSource sfx = GetComponent<AudioSource>();
-        sfx.Play();
-        Rigidbody2D brb = bullet.AddComponent<Rigidbody2D>();
-        brb.gravityScale = 0;
-        brb.useAutoMass = true;
-        bullet.tag = ("Projectile");
-        brb.AddForce(new Vector2(target.x*bulletspeed, target.y*bulletspeed));
-        yield return new WaitForSeconds(0.25f);
-        CircleCollider2D bcc = bullet.AddComponent<CircleCollider2D>();
-        bcc.radius = .5f;
-        Destroy(bullet, 5);
-        count--;
         
+        count--;
+
     }
+
+
+    
+    
 
 
 }
