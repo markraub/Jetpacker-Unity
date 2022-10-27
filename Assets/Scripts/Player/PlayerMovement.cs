@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (currentfuel != 0 && v > 0)
         {
-            rb.AddRelativeForce(new Vector2(0, Mathf.Abs(v) * speed));
+            rb.AddRelativeForce(new Vector2(0, Mathf.Abs(v) * speed * Time.deltaTime));
         }
 
         if (v > 0)
@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
             }
 
-            currentfuel -= fuelburnrate * Mathf.Abs(v) / fuelcapacity;
+            currentfuel -= fuelburnrate * Mathf.Abs(v) / fuelcapacity * Time.deltaTime;
             if (currentfuel <= 0)
             {
                 currentfuel = 0;
@@ -85,12 +85,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            float impulse = (rotationspeed * Mathf.Deg2Rad) * rb.inertia;
+            float impulse = (rotationspeed * Mathf.Deg2Rad * Time.deltaTime) * rb.inertia;
             rb.AddTorque(impulse, ForceMode2D.Impulse);
         }
         if (Input.GetKey(KeyCode.D))
         {            
-            float impulse = (rotationspeed * Mathf.Deg2Rad) * rb.inertia * -1;
+            float impulse = (rotationspeed * Mathf.Deg2Rad * Time.deltaTime) * rb.inertia * -1;
             rb.AddTorque(impulse, ForceMode2D.Impulse);          
         }
 
@@ -101,8 +101,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 currentfuel = fuelcapacity;
             }
-            rb.velocity = new Vector2(rb.velocity.x / breakspeed, rb.velocity.y / breakspeed);
-            rb.angularVelocity /= breakspeed;
+            rb.velocity = new Vector2(rb.velocity.x / breakspeed * Time.deltaTime, rb.velocity.y / breakspeed * Time.deltaTime);
+            rb.angularVelocity /= breakspeed * Time.deltaTime;
             
         }
 

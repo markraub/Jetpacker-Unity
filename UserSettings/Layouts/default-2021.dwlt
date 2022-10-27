@@ -15,11 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
-    width: 2560
-    height: 997
+    y: 53
+    width: 1280
+    height: 685
   m_ShowMode: 4
-  m_Title: GitHub
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -44,8 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
-    height: 997
+    width: 1280
+    height: 685
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
+    width: 1280
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
-    width: 2560
+    y: 665
+    width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -114,12 +114,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2560
-    height: 947
+    width: 1280
+    height: 635
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 97
+  controlID: 86
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,12 +139,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1935
-    height: 947
+    width: 967.5
+    height: 635
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 87
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,12 +164,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1935
-    height: 651
+    width: 967.5
+    height: 436.5
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24
+  controlID: 88
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 473
-    height: 651
+    width: 236.5
+    height: 436.5
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -211,10 +211,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 473
+    x: 236.5
     y: 0
-    width: 1462
-    height: 651
+    width: 731
+    height: 436.5
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -236,23 +236,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 651
-    width: 1935
-    height: 296
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+    y: 436.5
+    width: 967.5
+    height: 198.5
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,23 +263,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1935
+    x: 967.5
     y: 0
-    width: 625
-    height: 947
-  m_MinSize: {x: 101, y: 121}
+    width: 312.5
+    height: 635
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,21 +300,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1935
-    y: 73
-    width: 624
-    height: 926
+    x: 967.5
+    y: 83
+    width: 311.5
+    height: 614
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: 776.9874096
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
@@ -488,7 +488,7 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
@@ -498,44 +498,16 @@ MonoBehaviour:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - b2f2a8ca63ce540e489585f5f7e5e979
-        - de55a6a2d28600e4893bec97204848df
         - f3433264d9da542898e020974893ffe0
-        - f61ea446ba46ef74a92ba500cbee2e21
-        - d65934ebc9ad6c34cb205cc92f4312cf
-        - e07f89e85579ab443a9b68c3f303b662
-        - 1f09c0b6acfbbd344a6ea5d3291fdad5
-        - d24d87635d579f248ae071d1eca9fc01
-        - a3baeb294c6a939458980f3f948bf26c
-        - 55b06d73dfc591a4da54f8fb6423344b
-        - 9359bab53805c2e449228d2622ffc539
-        - ab1817614eb3e164c9502ba3f08a1516
-        - 1597f33ac4837204894254774807d989
-        - 784a80ec47734a249a74be5e64b7b08c
-        - 6e65aa73d1159f645b6a7a91e5965536
-        - 97f8de745d2b46b4799beec7966bab1f
-        - 245ad88fc9668204b90356790a3a5049
+        - 562d785c1df84448981f9765a84dc975
         - 131a6b21c8605f84396be9f6751fb6e3
         - 2cda990e2423bbf4892e6590ba056729
         - ca13fac058a8a438eb0f9f6c930db8e3
-        - 1b6bc26a4112d442d81f262a82e74ebb
-        - b9cf8f850af104bf88f92286517ccb53
-        - 6ee13e4072ddd41f2a63ea59bd34f78a
-        - 26cb326ecec484556b2f69457eb4a762
         - a62c1ce03ed074148b4c61e4e9ada4c5
-        - ad5d099ef800ab3449edef0d64a02011
-        - 2c9d79ae046f4498fb298f7958e056e9
-        - 45e865ce4a28141c6b2e685320ccc2f9
-        - 6b84b4840f951414cbe10b278ec8bee1
+        - 23f9e3432f2744c9e8aff23084c5befc
         - dd820aed4064b4348a26c2db6368c08b
-        - 341ed3275d7515e40910823d0f91d7d7
-        - 06a18562f3a4ddd49ab72982d9562bfd
-        - 7d740046447c6464cbb78ed70fe4cf7c
-        - cdc62bd0df69745ccb248b0b40b952c4
-        - 363892cf9870dd54c9b842786957c6a7
-        - 2c05ee7b847edb34a946c5bc8ea32a48
-        - 36aaee853ead833458958fd80fd40726
-        - 00000000000000003000000000000000
+        - 6828ae8a68cef468496dce1db9aca02d
+        - 01104055e04114d4497ea52fbc6510c4
         values:
         - path: Assets
           label: Assets
@@ -555,43 +527,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Audio
-          label: Audio
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Audio\Thud.wav
-          label: Thud.wav
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Audio\Thud.wav
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud.wav
-            projectPath: Assets\Audio\Thud.wav
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Materials
+        - path: Assets/Materials
           label: Materials
           level: 1
           isFolder: 1
@@ -609,8 +545,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Materials\Seven Segment.ttf
-          label: Seven Segment.ttf
+        - path: Assets/Materials/Earth.mat
+          label: Earth.mat
           level: 2
           isFolder: 0
           isContainer: 1
@@ -621,247 +557,13 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Materials\Seven Segment.ttf
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Materials\Seven Segment.ttf
-            projectPath: Assets\Materials\Seven Segment.ttf
+            path: Assets/Materials/Earth.mat
+            fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Materials/Earth.mat
+            projectPath: Assets/Materials/Earth.mat
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\Obstacles
-          label: Obstacles
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\Obstacles\Asteroid.prefab
-          label: Asteroid.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Obstacles\Asteroid.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Asteroid.prefab
-            projectPath: Assets\Prefabs\Obstacles\Asteroid.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Obstacles\Planet.prefab
-          label: Planet.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Obstacles\Planet.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Planet.prefab
-            projectPath: Assets\Prefabs\Obstacles\Planet.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Obstacles\ProximityMine.prefab
-          label: ProximityMine.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Obstacles\ProximityMine.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\ProximityMine.prefab
-            projectPath: Assets\Prefabs\Obstacles\ProximityMine.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Obstacles\Turret.prefab
-          label: Turret.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Obstacles\Turret.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Turret.prefab
-            projectPath: Assets\Prefabs\Obstacles\Turret.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Pickups
-          label: Pickups
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\Pickups\FuelPickup.prefab
-          label: FuelPickup.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Pickups\FuelPickup.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\FuelPickup.prefab
-            projectPath: Assets\Prefabs\Pickups\FuelPickup.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Pickups\LivesPickup.prefab
-          label: LivesPickup.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Pickups\LivesPickup.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\LivesPickup.prefab
-            projectPath: Assets\Prefabs\Pickups\LivesPickup.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Pickups\SpeedPickup.prefab
-          label: SpeedPickup.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Pickups\SpeedPickup.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\SpeedPickup.prefab
-            projectPath: Assets\Prefabs\Pickups\SpeedPickup.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Pickups\TreatPickup.prefab
-          label: TreatPickup.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Pickups\TreatPickup.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\TreatPickup.prefab
-            projectPath: Assets\Prefabs\Pickups\TreatPickup.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Prefabs\Pickups\WeightPickup.prefab
-          label: WeightPickup.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Pickups\WeightPickup.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\WeightPickup.prefab
-            projectPath: Assets\Prefabs\Pickups\WeightPickup.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Prefabs\Player.prefab
-          label: Player.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Prefabs\Player.prefab
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Player.prefab
-            projectPath: Assets\Prefabs\Player.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scenes
+        - path: Assets/Scenes
           label: Scenes
           level: 1
           isFolder: 1
@@ -879,7 +581,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes\Testing.unity
+        - path: Assets/Scenes/Testing.unity
           label: Testing.unity
           level: 2
           isFolder: 0
@@ -891,13 +593,13 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scenes\Testing.unity
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scenes\Testing.unity
-            projectPath: Assets\Scenes\Testing.unity
+            path: Assets/Scenes/Testing.unity
+            fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Scenes/Testing.unity
+            projectPath: Assets/Scenes/Testing.unity
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
-        - path: Assets\Scripts
+        - path: Assets/Scripts
           label: Scripts
           level: 1
           isFolder: 1
@@ -915,79 +617,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Obstacles
-          label: Obstacles
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\Obstacles\Asteroids.cs
-          label: Asteroids.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Obstacles\Asteroids.cs
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\Asteroids.cs
-            projectPath: Assets\Scripts\Obstacles\Asteroids.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\Obstacles\ProximityMine.cs
-          label: ProximityMine.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Obstacles\ProximityMine.cs
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\ProximityMine.cs
-            projectPath: Assets\Scripts\Obstacles\ProximityMine.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\Obstacles\Turret.cs
-          label: Turret.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Obstacles\Turret.cs
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\Turret.cs
-            projectPath: Assets\Scripts\Obstacles\Turret.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\Player
+        - path: Assets/Scripts/Player
           label: Player
           level: 2
           isFolder: 1
@@ -1005,26 +635,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Player\FishFinder.cs
-          label: FishFinder.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Player\FishFinder.cs
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Player\FishFinder.cs
-            projectPath: Assets\Scripts\Player\FishFinder.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\Player\PlayerCharacter.cs
-          label: PlayerCharacter.cs
+        - path: Assets/Scripts/Player/PlayerMovement.cs
+          label: PlayerMovement.cs
           level: 3
           isFolder: 0
           isContainer: 0
@@ -1035,49 +647,13 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scripts\Player\PlayerCharacter.cs
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Player\PlayerCharacter.cs
-            projectPath: Assets\Scripts\Player\PlayerCharacter.cs
+            path: Assets/Scripts/Player/PlayerMovement.cs
+            fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Scripts/Player/PlayerMovement.cs
+            projectPath: Assets/Scripts/Player/PlayerMovement.cs
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
-        - path: Assets\Scripts\UI
-          label: UI
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\UI\Lives.cs
-          label: Lives.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\UI\Lives.cs
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\UI\Lives.cs
-            projectPath: Assets\Scripts\UI\Lives.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprites
+        - path: Assets/Sprites
           label: Sprites
           level: 1
           isFolder: 1
@@ -1095,8 +671,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Sprites\Obstacles
-          label: Obstacles
+        - path: Assets/Sprites/Background
+          label: Background
           level: 2
           isFolder: 1
           isContainer: 0
@@ -1113,8 +689,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Sprites\Obstacles\Planets.png
-          label: Planets.png
+        - path: Assets/Sprites/Background/Earth-Watercolor.png
+          label: Earth-Watercolor.png
           level: 3
           isFolder: 0
           isContainer: 1
@@ -1125,139 +701,21 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Sprites\Obstacles\Planets.png
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\Planets.png
-            projectPath: Assets\Sprites\Obstacles\Planets.png
+            path: Assets/Sprites/Background/Earth-Watercolor.png
+            fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Sprites/Background/Earth-Watercolor.png
+            projectPath: Assets/Sprites/Background/Earth-Watercolor.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: Assets\Sprites\Obstacles\ProxMines.png
-          label: ProxMines.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\Obstacles\ProxMines.png
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\ProxMines.png
-            projectPath: Assets\Sprites\Obstacles\ProxMines.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\Pickups
-          label: Pickups
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites\Pickups\Burger.png
-          label: Burger.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\Pickups\Burger.png
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Burger.png
-            projectPath: Assets\Sprites\Pickups\Burger.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\Pickups\Fishie.png
-          label: Fishie.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\Pickups\Fishie.png
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Fishie.png
-            projectPath: Assets\Sprites\Pickups\Fishie.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\Pickups\Milk.png
-          label: Milk.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\Pickups\Milk.png
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Milk.png
-            projectPath: Assets\Sprites\Pickups\Milk.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: B:\Unity\Projects\Jetpacker-Unity\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
       folders:
         keys:
         - Assets
-        - Assets\Audio
-        - Assets\Materials
-        - Assets\Prefabs
-        - Assets\Prefabs\Obstacles
-        - Assets\Prefabs\Pickups
-        - Assets\Scenes
-        - Assets\Scripts
-        - Assets\Scripts\Obstacles
-        - Assets\Scripts\Player
-        - Assets\Scripts\UI
-        - Assets\Sprites
-        - Assets\Sprites\Obstacles
-        - Assets\Sprites\Pickups
-        - ProjectSettings
-        - UserSettings
-        - UserSettings\Layouts
+        - Assets/Materials
+        - Assets/Scenes
+        - Assets/Scripts
+        - Assets/Scripts/Player
+        - Assets/Sprites
+        - Assets/Sprites/Background
         values:
         - path: Assets
           label: Assets
@@ -1277,25 +735,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Audio
-          label: Audio
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Materials
+        - path: Assets/Materials
           label: Materials
           level: 1
           isFolder: 1
@@ -1313,61 +753,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Prefabs
-          label: Prefabs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\Obstacles
-          label: Obstacles
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Prefabs\Pickups
-          label: Pickups
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
+        - path: Assets/Scenes
           label: Scenes
           level: 1
           isFolder: 1
@@ -1385,7 +771,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts
+        - path: Assets/Scripts
           label: Scripts
           level: 1
           isFolder: 1
@@ -1403,25 +789,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Obstacles
-          label: Obstacles
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\Player
+        - path: Assets/Scripts/Player
           label: Player
           level: 2
           isFolder: 1
@@ -1439,25 +807,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\UI
-          label: UI
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites
+        - path: Assets/Sprites
           label: Sprites
           level: 1
           isFolder: 1
@@ -1475,81 +825,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Sprites\Obstacles
-          label: Obstacles
+        - path: Assets/Sprites/Background
+          label: Background
           level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites\Pickups
-          label: Pickups
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1569,7 +847,7 @@ MonoBehaviour:
         keys: []
         values: []
       title: 
-      pathSeparator: \
+      pathSeparator: /
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 1
@@ -1611,169 +889,7 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Audio
-        label: Audio
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Audio\Thud.wav
-        label: Thud.wav
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Audio\Thud.wav
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud.wav
-          projectPath: Assets\Audio\Thud.wav
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Audio\Thud.wav.meta
-        label: Thud.wav.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Audio\Thud.wav.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud.wav.meta
-          projectPath: Assets\Audio\Thud.wav.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Audio\Thud-1.wav
-        label: Thud-1.wav
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Audio\Thud-1.wav
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-1.wav
-          projectPath: Assets\Audio\Thud-1.wav
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Audio\Thud-1.wav.meta
-        label: Thud-1.wav.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Audio\Thud-1.wav.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-1.wav.meta
-          projectPath: Assets\Audio\Thud-1.wav.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Audio\Thud-2.wav
-        label: Thud-2.wav
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Audio\Thud-2.wav
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-2.wav
-          projectPath: Assets\Audio\Thud-2.wav
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Audio\Thud-2.wav.meta
-        label: Thud-2.wav.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Audio\Thud-2.wav.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-2.wav.meta
-          projectPath: Assets\Audio\Thud-2.wav.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Audio\Thud-3.wav
-        label: Thud-3.wav
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Audio\Thud-3.wav
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-3.wav
-          projectPath: Assets\Audio\Thud-3.wav
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Audio\Thud-3.wav.meta
-        label: Thud-3.wav.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Audio\Thud-3.wav.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-3.wav.meta
-          projectPath: Assets\Audio\Thud-3.wav.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Materials
+      - path: Assets/Materials
         label: Materials
         level: 1
         isFolder: 1
@@ -1791,8 +907,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Materials\Seven Segment.ttf
-        label: Seven Segment.ttf
+      - path: Assets/Materials/Earth.mat
+        label: Earth.mat
         level: 2
         isFolder: 0
         isContainer: 1
@@ -1803,14 +919,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Materials\Seven Segment.ttf
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Materials\Seven Segment.ttf
-          projectPath: Assets\Materials\Seven Segment.ttf
+          path: Assets/Materials/Earth.mat
+          fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Materials/Earth.mat
+          projectPath: Assets/Materials/Earth.mat
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Materials\Seven Segment.ttf.meta
-        label: Seven Segment.ttf.meta
+      - path: Assets/Materials/Earth.mat.meta
+        label: Earth.mat.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -1821,265 +937,13 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Materials\Seven Segment.ttf.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Materials\Seven Segment.ttf.meta
-          projectPath: Assets\Materials\Seven Segment.ttf.meta
+          path: Assets/Materials/Earth.mat.meta
+          fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Materials/Earth.mat.meta
+          projectPath: Assets/Materials/Earth.mat.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Prefabs
-        label: Prefabs
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Prefabs\Obstacles
-        label: Obstacles
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Prefabs\Obstacles\Asteroid.prefab
-        label: Asteroid.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Obstacles\Asteroid.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Asteroid.prefab
-          projectPath: Assets\Prefabs\Obstacles\Asteroid.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Obstacles\Planet.prefab
-        label: Planet.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Obstacles\Planet.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Planet.prefab
-          projectPath: Assets\Prefabs\Obstacles\Planet.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Obstacles\ProximityMine.prefab
-        label: ProximityMine.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Obstacles\ProximityMine.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\ProximityMine.prefab
-          projectPath: Assets\Prefabs\Obstacles\ProximityMine.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Obstacles\Turret.prefab
-        label: Turret.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Obstacles\Turret.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Turret.prefab
-          projectPath: Assets\Prefabs\Obstacles\Turret.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Pickups
-        label: Pickups
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Prefabs\Pickups\FuelPickup.prefab
-        label: FuelPickup.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Pickups\FuelPickup.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\FuelPickup.prefab
-          projectPath: Assets\Prefabs\Pickups\FuelPickup.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Pickups\LivesPickup.prefab
-        label: LivesPickup.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Pickups\LivesPickup.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\LivesPickup.prefab
-          projectPath: Assets\Prefabs\Pickups\LivesPickup.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Pickups\SpeedPickup.prefab
-        label: SpeedPickup.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Pickups\SpeedPickup.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\SpeedPickup.prefab
-          projectPath: Assets\Prefabs\Pickups\SpeedPickup.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Pickups\TreatPickup.prefab
-        label: TreatPickup.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Pickups\TreatPickup.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\TreatPickup.prefab
-          projectPath: Assets\Prefabs\Pickups\TreatPickup.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs\Pickups\TreatPickup.prefab.meta
-        label: TreatPickup.prefab.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Pickups\TreatPickup.prefab.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\TreatPickup.prefab.meta
-          projectPath: Assets\Prefabs\Pickups\TreatPickup.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Prefabs\Pickups\WeightPickup.prefab
-        label: WeightPickup.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Pickups\WeightPickup.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\WeightPickup.prefab
-          projectPath: Assets\Prefabs\Pickups\WeightPickup.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Prefabs\Player.prefab
-        label: Player.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Prefabs\Player.prefab
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Player.prefab
-          projectPath: Assets\Prefabs\Player.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scenes
+      - path: Assets/Scenes
         label: Scenes
         level: 1
         isFolder: 1
@@ -2097,7 +961,7 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\Testing.unity
+      - path: Assets/Scenes/Testing.unity
         label: Testing.unity
         level: 2
         isFolder: 0
@@ -2109,13 +973,13 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\Testing.unity
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scenes\Testing.unity
-          projectPath: Assets\Scenes\Testing.unity
+          path: Assets/Scenes/Testing.unity
+          fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Scenes/Testing.unity
+          projectPath: Assets/Scenes/Testing.unity
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\Scripts
+      - path: Assets/Scripts
         label: Scripts
         level: 1
         isFolder: 1
@@ -2133,79 +997,7 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\Obstacles
-        label: Obstacles
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\Obstacles\Asteroids.cs
-        label: Asteroids.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Obstacles\Asteroids.cs
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\Asteroids.cs
-          projectPath: Assets\Scripts\Obstacles\Asteroids.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\Obstacles\ProximityMine.cs
-        label: ProximityMine.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Obstacles\ProximityMine.cs
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\ProximityMine.cs
-          projectPath: Assets\Scripts\Obstacles\ProximityMine.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\Obstacles\Turret.cs
-        label: Turret.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Obstacles\Turret.cs
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\Turret.cs
-          projectPath: Assets\Scripts\Obstacles\Turret.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\Player
+      - path: Assets/Scripts/Player
         label: Player
         level: 2
         isFolder: 1
@@ -2223,44 +1015,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\Player\FishFinder.cs
-        label: FishFinder.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Player\FishFinder.cs
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Player\FishFinder.cs
-          projectPath: Assets\Scripts\Player\FishFinder.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Player\FishFinder.cs.meta
-        label: FishFinder.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Player\FishFinder.cs.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Player\FishFinder.cs.meta
-          projectPath: Assets\Scripts\Player\FishFinder.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Player\PlayerCharacter.cs
-        label: PlayerCharacter.cs
+      - path: Assets/Scripts/Player/PlayerMovement.cs
+        label: PlayerMovement.cs
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2271,49 +1027,13 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\Player\PlayerCharacter.cs
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Player\PlayerCharacter.cs
-          projectPath: Assets\Scripts\Player\PlayerCharacter.cs
+          path: Assets/Scripts/Player/PlayerMovement.cs
+          fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Scripts/Player/PlayerMovement.cs
+          projectPath: Assets/Scripts/Player/PlayerMovement.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\Scripts\UI
-        label: UI
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\UI\Lives.cs
-        label: Lives.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\UI\Lives.cs
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\UI\Lives.cs
-          projectPath: Assets\Scripts\UI\Lives.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprites
+      - path: Assets/Sprites
         label: Sprites
         level: 1
         isFolder: 1
@@ -2331,26 +1051,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Sprites\Obstacles.meta
-        label: Obstacles.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Obstacles.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles.meta
-          projectPath: Assets\Sprites\Obstacles.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Obstacles
-        label: Obstacles
+      - path: Assets/Sprites/Background
+        label: Background
         level: 2
         isFolder: 1
         isContainer: 0
@@ -2367,8 +1069,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Sprites\Obstacles\Planets.png
-        label: Planets.png
+      - path: Assets/Sprites/Background/Earth-Watercolor.png
+        label: Earth-Watercolor.png
         level: 3
         isFolder: 0
         isContainer: 1
@@ -2379,14 +1081,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Sprites\Obstacles\Planets.png
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\Planets.png
-          projectPath: Assets\Sprites\Obstacles\Planets.png
+          path: Assets/Sprites/Background/Earth-Watercolor.png
+          fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Sprites/Background/Earth-Watercolor.png
+          projectPath: Assets/Sprites/Background/Earth-Watercolor.png
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Sprites\Obstacles\Planets.png.meta
-        label: Planets.png.meta
+      - path: Assets/Sprites/Background/Earth-Watercolor.png.meta
+        label: Earth-Watercolor.png.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2397,300 +1099,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Sprites\Obstacles\Planets.png.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\Planets.png.meta
-          projectPath: Assets\Sprites\Obstacles\Planets.png.meta
+          path: Assets/Sprites/Background/Earth-Watercolor.png.meta
+          fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Sprites/Background/Earth-Watercolor.png.meta
+          projectPath: Assets/Sprites/Background/Earth-Watercolor.png.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Sprites\Obstacles\ProxMines.png
-        label: ProxMines.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Obstacles\ProxMines.png
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\ProxMines.png
-          projectPath: Assets\Sprites\Obstacles\ProxMines.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Obstacles\ProxMines.png.meta
-        label: ProxMines.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Obstacles\ProxMines.png.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\ProxMines.png.meta
-          projectPath: Assets\Sprites\Obstacles\ProxMines.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Pickups
-        label: Pickups
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites\Pickups\Burger.png
-        label: Burger.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Pickups\Burger.png
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Burger.png
-          projectPath: Assets\Sprites\Pickups\Burger.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Pickups\Burger.png.meta
-        label: Burger.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Pickups\Burger.png.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Burger.png.meta
-          projectPath: Assets\Sprites\Pickups\Burger.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Pickups\Fishie.png
-        label: Fishie.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Pickups\Fishie.png
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Fishie.png
-          projectPath: Assets\Sprites\Pickups\Fishie.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Pickups\Fishie.png.meta
-        label: Fishie.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Pickups\Fishie.png.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Fishie.png.meta
-          projectPath: Assets\Sprites\Pickups\Fishie.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Pickups\Milk.png
-        label: Milk.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Pickups\Milk.png
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Milk.png
-          projectPath: Assets\Sprites\Pickups\Milk.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Pickups\Milk.png.meta
-        label: Milk.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Pickups\Milk.png.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Milk.png.meta
-          projectPath: Assets\Sprites\Pickups\Milk.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Planets.png
-        label: Planets.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Planets.png
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Planets.png
-          projectPath: Assets\Sprites\Planets.png
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Sprites\Planets.png.meta
-        label: Planets.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Planets.png.meta
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Planets.png.meta
-          projectPath: Assets\Sprites\Planets.png.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: B:\Unity\Projects\Jetpacker-Unity\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -2711,279 +1125,51 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets\Audio\Thud.wav
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud.wav
-      projectPath: Assets\Audio\Thud.wav
+    - path: Assets/Materials/Earth.mat
+      fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Materials/Earth.mat
+      projectPath: Assets/Materials/Earth.mat
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Audio\Thud.wav.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud.wav.meta
-      projectPath: Assets\Audio\Thud.wav.meta
+    - path: Assets/Materials/Earth.mat.meta
+      fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Materials/Earth.mat.meta
+      projectPath: Assets/Materials/Earth.mat.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Audio\Thud-1.wav
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-1.wav
-      projectPath: Assets\Audio\Thud-1.wav
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Audio\Thud-1.wav.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-1.wav.meta
-      projectPath: Assets\Audio\Thud-1.wav.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Audio\Thud-2.wav
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-2.wav
-      projectPath: Assets\Audio\Thud-2.wav
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Audio\Thud-2.wav.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-2.wav.meta
-      projectPath: Assets\Audio\Thud-2.wav.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Audio\Thud-3.wav
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-3.wav
-      projectPath: Assets\Audio\Thud-3.wav
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Audio\Thud-3.wav.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Audio\Thud-3.wav.meta
-      projectPath: Assets\Audio\Thud-3.wav.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Materials\Seven Segment.ttf
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Materials\Seven Segment.ttf
-      projectPath: Assets\Materials\Seven Segment.ttf
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Materials\Seven Segment.ttf.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Materials\Seven Segment.ttf.meta
-      projectPath: Assets\Materials\Seven Segment.ttf.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Prefabs\Obstacles\Asteroid.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Asteroid.prefab
-      projectPath: Assets\Prefabs\Obstacles\Asteroid.prefab
+    - path: Assets/Scenes/Testing.unity
+      fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Scenes/Testing.unity
+      projectPath: Assets/Scenes/Testing.unity
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Prefabs\Obstacles\Planet.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Planet.prefab
-      projectPath: Assets\Prefabs\Obstacles\Planet.prefab
+    - path: Assets/Scripts/Player/PlayerMovement.cs
+      fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Scripts/Player/PlayerMovement.cs
+      projectPath: Assets/Scripts/Player/PlayerMovement.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Prefabs\Obstacles\ProximityMine.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\ProximityMine.prefab
-      projectPath: Assets\Prefabs\Obstacles\ProximityMine.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Obstacles\Turret.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Obstacles\Turret.prefab
-      projectPath: Assets\Prefabs\Obstacles\Turret.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Pickups\FuelPickup.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\FuelPickup.prefab
-      projectPath: Assets\Prefabs\Pickups\FuelPickup.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Pickups\LivesPickup.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\LivesPickup.prefab
-      projectPath: Assets\Prefabs\Pickups\LivesPickup.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Pickups\SpeedPickup.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\SpeedPickup.prefab
-      projectPath: Assets\Prefabs\Pickups\SpeedPickup.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Pickups\TreatPickup.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\TreatPickup.prefab
-      projectPath: Assets\Prefabs\Pickups\TreatPickup.prefab
+    - path: Assets/Sprites/Background/Earth-Watercolor.png
+      fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Sprites/Background/Earth-Watercolor.png
+      projectPath: Assets/Sprites/Background/Earth-Watercolor.png
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Prefabs\Pickups\TreatPickup.prefab.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\TreatPickup.prefab.meta
-      projectPath: Assets\Prefabs\Pickups\TreatPickup.prefab.meta
+    - path: Assets/Sprites/Background/Earth-Watercolor.png.meta
+      fullPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity/Assets/Sprites/Background/Earth-Watercolor.png.meta
+      projectPath: Assets/Sprites/Background/Earth-Watercolor.png.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Prefabs\Pickups\WeightPickup.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Pickups\WeightPickup.prefab
-      projectPath: Assets\Prefabs\Pickups\WeightPickup.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Prefabs\Player.prefab
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Prefabs\Player.prefab
-      projectPath: Assets\Prefabs\Player.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scenes\Testing.unity
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scenes\Testing.unity
-      projectPath: Assets\Scenes\Testing.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Obstacles\Asteroids.cs
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\Asteroids.cs
-      projectPath: Assets\Scripts\Obstacles\Asteroids.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Obstacles\ProximityMine.cs
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\ProximityMine.cs
-      projectPath: Assets\Scripts\Obstacles\ProximityMine.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Obstacles\Turret.cs
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Obstacles\Turret.cs
-      projectPath: Assets\Scripts\Obstacles\Turret.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Player\FishFinder.cs
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Player\FishFinder.cs
-      projectPath: Assets\Scripts\Player\FishFinder.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Player\FishFinder.cs.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Player\FishFinder.cs.meta
-      projectPath: Assets\Scripts\Player\FishFinder.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Player\PlayerCharacter.cs
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\Player\PlayerCharacter.cs
-      projectPath: Assets\Scripts\Player\PlayerCharacter.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\UI\Lives.cs
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Scripts\UI\Lives.cs
-      projectPath: Assets\Scripts\UI\Lives.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprites\Obstacles.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles.meta
-      projectPath: Assets\Sprites\Obstacles.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Obstacles\Planets.png
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\Planets.png
-      projectPath: Assets\Sprites\Obstacles\Planets.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Obstacles\Planets.png.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\Planets.png.meta
-      projectPath: Assets\Sprites\Obstacles\Planets.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Obstacles\ProxMines.png
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\ProxMines.png
-      projectPath: Assets\Sprites\Obstacles\ProxMines.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Obstacles\ProxMines.png.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Obstacles\ProxMines.png.meta
-      projectPath: Assets\Sprites\Obstacles\ProxMines.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Pickups\Burger.png
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Burger.png
-      projectPath: Assets\Sprites\Pickups\Burger.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Pickups\Burger.png.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Burger.png.meta
-      projectPath: Assets\Sprites\Pickups\Burger.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Pickups\Fishie.png
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Fishie.png
-      projectPath: Assets\Sprites\Pickups\Fishie.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Pickups\Fishie.png.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Fishie.png.meta
-      projectPath: Assets\Sprites\Pickups\Fishie.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Pickups\Milk.png
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Milk.png
-      projectPath: Assets\Sprites\Pickups\Milk.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Pickups\Milk.png.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Pickups\Milk.png.meta
-      projectPath: Assets\Sprites\Pickups\Milk.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Planets.png
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Planets.png
-      projectPath: Assets\Sprites\Planets.png
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Sprites\Planets.png.meta
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\Assets\Sprites\Planets.png.meta
-      projectPath: Assets\Sprites\Planets.png.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: ProjectSettings\TagManager.asset
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: B:\Unity\Projects\Jetpacker-Unity\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 44 changed files
+    changedFilesText: 6 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-10-20T14:00:34.207-07:00
+      updatedTimeString: 2022-10-26T20:37:09.223-07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-10-20T14:00:37.093-07:00
+      updatedTimeString: 2022-10-26T21:13:59.694-07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-10-20T14:00:35.268-07:00
+      updatedTimeString: 2022-10-26T20:37:09.472-07:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -5708,7 +3894,7 @@ MonoBehaviour:
   currentBranch: main
   currentRemoteUrl: https://github.com/markraub/Jetpacker-Unity.git
   statusAhead: 0
-  statusBehind: 1
+  statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
@@ -5720,13 +3906,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-10-20T14:00:34.207-07:00
+    updatedTimeString: 2022-10-26T20:37:09.223-07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-10-20T13:49:06.189-07:00
+    updatedTimeString: 2022-10-26T20:37:09.469-07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-10-20T14:00:37.093-07:00
+    updatedTimeString: 2022-10-26T21:13:59.694-07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5744,12 +3930,12 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 1
-  repositoryProgressMessage: Listing changed files...
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0.5
+  appManagerProgressMessage: Setting up git...
   connections: []
-  primaryConnectionUsername: markraub
+  primaryConnectionUsername: 
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -5798,10 +3984,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 473
-    y: 73
-    width: 1460
-    height: 630
+    x: 236.5
+    y: 83
+    width: 729
+    height: 415.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -6020,14 +4206,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.01594, y: 2.3973289, z: 3.5438333}
+    m_Target: {x: 1.9331735, y: 13.906209, z: -14.678562}
     speed: 2
-    m_Value: {x: 3.01594, y: 2.3973289, z: 3.5438333}
+    m_Value: {x: 1.9331735, y: 13.906209, z: -14.678562}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -6056,15 +4242,15 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -6074,20 +4260,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.031177925, y: -0.021891283, z: -0.00068475434, w: -0.99927694}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.029678883, y: -0.021892218, z: -0.0006519142, w: -0.9993195}
   m_Size:
-    m_Target: 17.644697
+    m_Target: 24.85556
     speed: 2
-    m_Value: 17.644697
+    m_Value: 24.874216
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 0.998501
+    m_SpeedNormalized: 0.499
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -6098,7 +4284,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.011654839, y: 0.32174492, z: -0.003960524, w: -0.9467482}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -6126,9 +4312,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
-    width: 472
-    height: 630
+    y: 83
+    width: 235.5
+    height: 415.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -6136,9 +4322,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5a620000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_SelectedIDs: 46600000
+      m_LastClickedID: 24646
+      m_ExpandedIDs: 2afbffff64600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -6278,9 +4464,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 724
-    width: 1934
-    height: 275
+    y: 519.5
+    width: 966.5
+    height: 177.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -6298,22 +4484,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Meshes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Meshes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: B:\Unity\Projects\Jetpacker-Unity
+  m_LastProjectPath: /Users/markraub/Desktop/Gamedev/Jetpacker-Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 159}
-    m_SelectedIDs: 2a620000
-    m_LastClickedID: 25130
-    m_ExpandedIDs: 000000003c6200003e6200004062000042620000
+    scrollPos: {x: 0, y: 127}
+    m_SelectedIDs: 08630000
+    m_LastClickedID: 25352
+    m_ExpandedIDs: 00000000486200008862000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6341,7 +4527,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c6200003e6200004062000042620000
+    m_ExpandedIDs: 0000000048620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6369,7 +4555,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000000000003e010100f8fc01001662000034620000e86f0000
+    m_ExpandedInstanceIDs: c62300003e010100f8fc01001662000034620000e86f00003663000000000000b2630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6418,9 +4604,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 724
-    width: 1934
-    height: 275
+    y: 519.5
+    width: 966.5
+    height: 177.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -6441,14 +4627,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1935
-    y: 73
-    width: 624
-    height: 926
+    x: 967.5
+    y: 83
+    width: 311.5
+    height: 614
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -6486,10 +4672,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 473
-    y: 73
-    width: 1460
-    height: 630
+    x: 236.5
+    y: 83
+    width: 729
+    height: 415.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -6502,7 +4688,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1083, y: 609}
+  m_TargetSize: {x: 701, y: 394.5}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -6517,10 +4703,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -541.5
-    m_HBaseRangeMax: 541.5
-    m_VBaseRangeMin: -304.5
-    m_VBaseRangeMax: 304.5
+    m_HBaseRangeMin: -175.25
+    m_HBaseRangeMax: 175.25
+    m_VBaseRangeMin: -98.625
+    m_VBaseRangeMax: 98.625
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -6529,7 +4715,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -6538,23 +4724,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1460
-      height: 609
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 730, y: 304.5}
+      width: 729
+      height: 394.5
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 364.5, y: 197.25}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -730
-      y: -304.5
-      width: 1460
-      height: 609
+      x: -182.25
+      y: -98.625
+      width: 364.5
+      height: 197.25
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1460, y: 630}
+  m_defaultScale: 2
+  m_LastWindowPixelSize: {x: 1458, y: 831}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
